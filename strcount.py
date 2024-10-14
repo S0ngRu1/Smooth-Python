@@ -8,4 +8,8 @@ for i in range(len(message)):
     char_count.setdefault(message[i], 0)
     char_count[message[i]] += 1
 
-print(char_count)
+# print(char_count)
+
+import  pyperclip
+pyperclip.copy(str(char_count))
+print(pyperclip.paste())
