@@ -166,3 +166,4 @@ cython_debug/
 *.csv
 *.xlsx
 .claude/
+*.bin
